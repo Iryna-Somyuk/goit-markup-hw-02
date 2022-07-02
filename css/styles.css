@@ -30,8 +30,10 @@ ul {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
 }
+
 .nav-link {
     color: var(--brand-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
@@ -41,17 +43,21 @@ ul {
 .nav-link:focus {
     color: var(--accent-color);
 }
+.nav-link.current {
+    color: var(--accent-color);
+}
+
 .header-link {
     color: var(--text-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    text-decoration: none;   
+    text-decoration: none;    
 }
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-color);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero {
@@ -70,6 +76,7 @@ ul {
     font-family: inherit;
     background-color: var(--accent-color);
     color: var(--hero-title-color);
+    font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
     display: flex;
@@ -158,6 +165,7 @@ ul {
     font-family: inherit;
     background-color: #F5F4FA;
     color: var(--brand-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
     letter-spacing: 0.03em;
